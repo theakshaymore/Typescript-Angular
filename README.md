@@ -1,5 +1,5 @@
-# 🇹 Typescript-Angular 🅰️
+# Typescript-Angular 🅰️ 🟦
 
 <p align="center"> 
-<img alt="Java Logo" src="https://news-cdn.softpedia.com/images/news2/typescrypt-2-0-angularjs-2-0-and-other-javascript-news-507859-2.png"/>
+<img alt="Java Logo" src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*grk7btEn0OJEQRKgG2Qs2A.png"/>
 </p>
