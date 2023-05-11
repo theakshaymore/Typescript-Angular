@@ -1,0 +1,31 @@
+<div class="container">
+  <form (ngSubmit)="getEmployee()" novalidate>
+    <input type="text" name="employeeId" [(ngModel)]="employeeId" />
+    <br />
+    <br />
+    <button type="submit" class="btn bg-warning">Get Search</button>
+  </form>
+  <br />
+  <table *ngIf="employee" class="table table-stripped table-success">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Salary</th>
+        <th>Date of joining</th>
+        <th>Login Id</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{ employee.id }}</td>
+        <td>{{ employee.name | uppercase }}</td>
+        <td>{{ employee.gender | lowercase }}</td>
+        <td>{{ employee.salary | currency : "INR" }}</td>
+        <td>{{ employee.dob | date : "longDate" }}</td>
+        <td>{{ employee.login_id | uppercase }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
